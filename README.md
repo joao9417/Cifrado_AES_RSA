@@ -7,7 +7,7 @@ Este repositorio contiene diversos ejercicios y pruebas de concepto relacionados
 El proyecto se compone de los siguientes scripts principales:
 
 - **Ejercicios de Cifrado:**
-  - `aes_cipher.py`: Implementación de cifrado y descifrado utilizando el algoritmo simétrico AES. Además, implementa una firma HMAC para asegurar la integridad de los datos y mejorar la seguridad general del cifrado.
+  - `aes_cipher.py`: Implementación de cifrado y descifrado utilizando el algoritmo simétrico AES.
   - `rsa_cipher.py`: Implementación de cifrado y descifrado utilizando el algoritmo asimétrico RSA.
 
 - **Ataques a los Algoritmos:**
