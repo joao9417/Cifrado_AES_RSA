@@ -18,7 +18,7 @@ El proyecto se compone de los siguientes scripts principales:
   - `perfomance_test.py`: Script diseñado para medir y comparar el rendimiento (tiempos de ejecución, coste computacional) entre los algoritmos de cifrado AES y RSA bajo diferentes escenarios.
 
 - **Sistema Híbrido:**
-  - `sistema_hibrido.py`: Implementación de un sistema criptográfico híbrido que combina la velocidad del cifrado simétrico (AES) para los datos y la seguridad del cifrado asimétrico (RSA) para la transmisión segura de las claves simétricas, logrando así un sistema mucho más robusto.
+  - `sistema_hibrido.py`: Implementación de un sistema criptográfico híbrido que combina la velocidad del cifrado simétrico (AES) para los datos y la seguridad del cifrado asimétrico (RSA) para la transmisión segura de las claves. Además, implementa una firma HMAC para detectar modificaciones fraudulentas en la información antes de procesarla, evitando así desbordamientos o paradas abruptas en el sistema.
 
 ## Requisitos
 
